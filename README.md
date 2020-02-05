@@ -11,3 +11,6 @@ Usage: smartsearch [directory to search] [directory to put found pictures] [keyw
 - Run npm link
 - Get Clarifai API key, and put it in JSON format to ~/.config/smartsearch.json, like { "apiKey": "Xyz123" }
 - Now you can search by typing smartsearch!
+
+# Uninstall
+- Run npm unlink. Now the smartsearch command should exist no more!
