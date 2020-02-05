@@ -1,0 +1,20 @@
+{
+  "name": "smartsearch",
+  "version": "0.0.1",
+  "description": "Search images on local filesystem by things that are in the image. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "smartsearch": "./index.js"
+  },
+  "author": "Mika Laaksonen",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai": "^2.9.1",
+    "imagemin": "^7.0.1",
+    "jimp": "^0.9.3"
+  }
+}
